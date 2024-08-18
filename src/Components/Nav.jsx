@@ -5,11 +5,11 @@ const Nav = () => {
 
     const link = 
 <>
-<NavLink to={'/'}>Home</NavLink>
-<NavLink to={'/listed-book'}>Listed Book</NavLink>
-<NavLink to={'/page-to-read'}>Page to Read</NavLink>
-<NavLink to={'/blogs'}>Blogs</NavLink>
-<NavLink to={'/about'}>About</NavLink>
+<NavLink to={'/'} className={({isActive})=> isActive? 'border-2 border-[#23BE0A] px-5 py-3 rounded-lg text-[#23BE0A] font-semibold ' : 'px-5 py-3 text-[#131313CC]'}>Home</NavLink>
+<NavLink to={'/listed-book'} className={({isActive})=> isActive? 'border-2 border-[#23BE0A] px-5 py-3 rounded-lg text-[#23BE0A] font-semibold ' : 'px-5 py-3 text-[#131313CC]'}>Listed Book</NavLink>
+<NavLink to={'/page-to-read'} className={({isActive})=> isActive? 'border-2 border-[#23BE0A] px-5 py-3 rounded-lg text-[#23BE0A] font-semibold ' : 'px-5 py-3 text-[#131313CC]'}>Page to Read</NavLink>
+<NavLink to={'/blogs'} className={({isActive})=> isActive? 'border-2 border-[#23BE0A] px-5 py-3 rounded-lg text-[#23BE0A] font-semibold ' : 'px-5 py-3 text-[#131313CC]'}>Blogs</NavLink>
+<NavLink to={'/about'} className={({isActive})=> isActive? 'border-2 border-[#23BE0A] px-5 py-3 rounded-lg text-[#23BE0A] font-semibold ' : 'px-5 py-3 text-[#131313CC]'}>About</NavLink>
 
 </>
     return (
@@ -39,8 +39,8 @@ const Nav = () => {
           <Link to={'/'} className="btn btn-ghost text-[28px] p-0 font-bold text-[#131313]">Book Vibe</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 flex gap-10 text-[#131313]">
-           {link}
+          <ul className="menu menu-horizontal px-1 flex ">
+         {link}
             
           </ul>
         </div>
