@@ -9,11 +9,7 @@ const Books = () => {
         fetch('books.json')
         .then(res=> res.json())
         .then(data=> setBooks(data))
-    }, [])
-
-    console.log(books);
-    
-
+    }, [books])
 
     return (
         <div className="">
@@ -21,7 +17,7 @@ const Books = () => {
 
             <div className="grid grid-cols-1 lg:p-0 p-3 lg:grid-cols-3 gap-6 mb-32 mt-9">
         {
-            books.map(book=> <BookCard key={book.id} book={book}></BookCard>)
+            books.map(book=> <BookCard key={book.bookId} book={book}></BookCard>)
         }
             </div>
         </div>
