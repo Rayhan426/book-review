@@ -1,9 +1,9 @@
 [
     {
-        "bookId": "1",
-        "bookName": "The Silent Patient",
+        "bookId": 1,
+        "bookName": "The Kevin Anderson",
         "author": "Alex Michaelides",
-        "image": "https://i.ibb.co/whVWdjX/book9.png",
+        "image": "https://i.ibb.co/fS1kQTx/kindpng-4945926-1.png",
         "review": "A thrilling psychological novel with a shocking twist.",
         "totalPages": 336,
         "rating": 4.5,
@@ -13,10 +13,10 @@
         "yearOfPublishing": 2019
     },
     {
-        "bookId": "2",
+        "bookId": 2,
         "bookName": "Where the Crawdads Sing",
         "author": "Delia Owens",
-        "image": "https://i.ibb.co/GC7jXDS/book2.png",
+        "image": "https://i.ibb.co/ZMbHmPV/kindpng-2592315-1.png",
         "review": "A heartbreaking coming-of-age story set in the marshlands of North Carolina.",
         "totalPages": 368,
         "rating": 4.8,
@@ -26,10 +26,10 @@
         "yearOfPublishing": 2018
     },
     {
-        "bookId": "3",
-        "bookName": "Educated",
+        "bookId": 3,
+        "bookName": "The Lost Art Of Good",
         "author": "Tara Westover",
-        "image": "https://i.ibb.co/JR2q4gb/book3.png",
+        "image": "https://i.ibb.co/mbV6LFd/kindpng-5624060-1.png",
         "review": "A memoir about a young girl who escapes her survivalist family to pursue education.",
         "totalPages": 352,
         "rating": 4.7,
@@ -39,10 +39,10 @@
         "yearOfPublishing": 2018
     },
     {
-        "bookId": "4",
-        "bookName": "The Subtle Art of Not Giving a F*ck",
+        "bookId": 4,
+        "bookName": "Loving Jesus More",
         "author": "Mark Manson",
-        "image": "https://i.ibb.co/fQbHxG9/book4-1.png",
+        "image": "https://i.ibb.co/2jLssHj/kindpng-2193744-1.png",
         "review": "A counterintuitive approach to living a good life.",
         "totalPages": 224,
         "rating": 4.3,
@@ -52,10 +52,10 @@
         "yearOfPublishing": 2016
     },
     {
-        "bookId": "5",
-        "bookName": "Becoming",
+        "bookId": 5,
+        "bookName": "Anoteted Texas Family",
         "author": "Michelle Obama",
-        "image": "https://i.ibb.co/yNwFC0r/book5.png",
+        "image": "https://i.ibb.co/fXD70sN/kindpng-81724-1.png",
         "review": "A deeply personal memoir by the former First Lady of the United States.",
         "totalPages": 448,
         "rating": 4.9,
@@ -65,10 +65,10 @@
         "yearOfPublishing": 2018
     },
     {
-        "bookId": "6",
-        "bookName": "Sapiens: A Brief History of Humankind",
+        "bookId": 6,
+        "bookName": "The Scholarship Monthly Planner",
         "author": "Yuval Noah Harari",
-        "image": "https://i.ibb.co/7zFVChF/book6.png",
+        "image": "https://i.ibb.co/nntXnLB/kindpng-4022054-1.png",
         "review": "A thought-provoking exploration of the history of humankind.",
         "totalPages": 443,
         "rating": 4.6,
@@ -78,10 +78,10 @@
         "yearOfPublishing": 2014
     },
     {
-        "bookId": "7",
-        "bookName": "The Night Circus",
+        "bookId": 7,
+        "bookName": "The Hate You Give",
         "author": "Erin Morgenstern",
-        "image": "https://i.ibb.co/HzLq2WD/book7.png",
+        "image": "https://i.ibb.co/y6Ys1Nb/kindpng-1064993.png",
         "review": "A magical and enchanting tale set in a traveling circus.",
         "totalPages": 512,
         "rating": 4.4,
@@ -91,10 +91,10 @@
         "yearOfPublishing": 2011
     },
     {
-        "bookId": "8",
-        "bookName": "The Alchemist",
+        "bookId": 8,
+        "bookName": "The Dating Playbook",
         "author": "Paulo Coelho",
-        "image": "https://i.ibb.co/CvJCf2m/book8.png",
+        "image": "https://i.ibb.co/9GQXYbZ/pngwing-1.png",
         "review": "An inspiring novel about following your dreams and listening to your heart.",
         "totalPages": 208,
         "rating": 4.7,
@@ -102,5 +102,18 @@
         "tags": ["Philosophy", "Adventure"],
         "publisher": "HarperOne",
         "yearOfPublishing": 1988
+    },
+    {
+        "bookId": 9,
+        "bookName": "Why Do You Hate Money",
+        "author": "Joey Percia",
+        "image": "https://i.ibb.co/x6x1hDk/kindpng-7318921.png",
+        "review": "An inspiring novel about following your dreams and listening to your heart.",
+        "totalPages": 212,
+        "rating": 4.6,
+        "category": "Fiction",
+        "tags": ["Philosophy", "Economics"],
+        "publisher": "HarperOne",
+        "yearOfPublishing": 1986
     }
 ]
