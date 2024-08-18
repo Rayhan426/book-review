@@ -1,4 +1,5 @@
 import { FaRegStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const BookCard = ({book}) => {
@@ -7,7 +8,7 @@ const BookCard = ({book}) => {
     const {bookName, author, image,rating, review, totalPages, category, yearOfPublishing} = book;
 
     return (
-        <div className="card bg-base-100 border p-6 border-[#13131321] ">
+        <Link to={''} className="card bg-base-100 border p-6 border-[#13131321] ">
         <div className="bg-[#F3F3F3] rounded-xl py-7">
          <div className="flex justify-center items-center">
          <img 
@@ -17,19 +18,23 @@ const BookCard = ({book}) => {
          </div>
         </div>
         <div className="card-body px-0">
+          <div >
+            <button className="text-[#23BE0A] bg-[#23BE0A21] font-medium px-4 py-2 rounded-full ">Young Adult</button>
+            <button className="text-[#23BE0A] bg-[#23BE0A21] font-medium px-4 py-2 ml-3 rounded-full ">Identity</button>
+          </div>
           <h2 className="text-[#131313] font-bold text-2xl">{bookName}</h2>
-          <p className="text-[#131313CC] pt-2">By : {author}</p>
+          <p className="text-[#131313CC] font-medium pt-2">By : {author}</p>
           <div className="border my-4 border-[#13131321] border-dashed"></div>
          <div className="flex justify-between">
             <div>
-                <p className="text-[#131313CC]">{category}</p>
+                <p className="text-[#131313CC] font-medium">{category}</p>
             </div>
             <div>
-            <p className="flex gap-2 items-center">{rating} <FaRegStar></FaRegStar></p>
+            <p className="flex gap-2 items-center font-medium">{rating} <FaRegStar></FaRegStar></p>
             </div>
          </div>
         </div>
-      </div>
+      </Link>
     );
 };
 
