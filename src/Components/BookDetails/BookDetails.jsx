@@ -1,4 +1,4 @@
-import { FaRegStar } from "react-icons/fa";
+
 import { Link, useLoaderData, useParams } from "react-router-dom";
 
 
@@ -7,14 +7,10 @@ const BookDetails = () => {
     const books = useLoaderData();
    const {bookId}= useParams();
    const idInt = parseInt(bookId);
-   console.log(bookId, books);
-
    const book = books.find(book=> book.bookId === idInt);
-   console.log(book);
-   
-   const {bookName, author, image, rating, category, tags, review, totalPages, publisher, yearOfPublishing,  } = book;
+ 
+   const {bookName, author,image, rating, category, tags, review, totalPages, publisher, yearOfPublishing,  } = book;
 
-   
     return (
         <div className="mt-12 border bg-base-100 shadow-xl">
         
@@ -60,8 +56,8 @@ const BookDetails = () => {
 
 
         <div className="flex  gap-5 mt-8">
-        <Link className="border border-[#50B1C9] px-7 py-[18px] rounded-xl font-bold text-[#131313]">Read</Link>
-        <Link className="bg-[#50B1C9] px-7 py-[18px] rounded-xl text-white">Wishlist</Link>
+        <Link to={`/`} className="border-2 border-[#50B1C9] px-7 py-[18px] rounded-xl font-bold text-[#131313]">Read</Link>
+        <Link to={''} className="bg-[#50B1C9] px-7 py-[18px] rounded-xl font-bold text-white">Wishlist</Link>
         </div>
       </div>
       </div>
